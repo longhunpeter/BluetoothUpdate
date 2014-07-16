@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    >
+
+    <RelativeLayout
+        android:id="@+id/update_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_title_ground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:text="@string/update_title"
+            />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/btn_back"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_press"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/update_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/update_title"
+        android:textSize="19sp"
+        android:textColor="#ffbb251d"
+        android:text="@string/update_connect_wait"
+        />
+
+    <Button
+        android:id="@+id/startUpdate_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_below="@id/update_status"
+        android:background="@drawable/button_press"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="开始升级"
+        />
+
+    <Button
+        android:id="@+id/cancelUpdate_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/startUpdate_btn"
+        android:background="@drawable/button_press"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="取消升级"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/reset_btn"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_below="@id/cancelUpdate_btn"-->
+        <!--android:background="@drawable/button_press"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:text="重启设备"-->
+        <!--/>-->
+
+
+
+</RelativeLayout>

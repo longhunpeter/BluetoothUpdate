@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="device_name">
+        <item>经典版</item>
+        <item>时尚版</item>
+    </array>
+
+    <integer-array name="device_code">
+        <item>101</item>
+        <item>102</item>
+    </integer-array>
+
+</resources>

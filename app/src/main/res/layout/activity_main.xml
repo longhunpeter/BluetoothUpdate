@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <RelativeLayout
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_title_ground">
+
+        <Button
+            android:id="@+id/get_qr_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_height"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/btn_qr_scan"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_share"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/scan_device_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/btn_scan"
+            android:textColor="#ffffff"
+            android:background="@drawable/button_press"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/device_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_title"
+        />
+</RelativeLayout>

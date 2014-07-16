@@ -1,0 +1,22 @@
+<resources>
+
+    <color name="main_title_ground">#ff1bbb55</color>
+    <color name="editText_ground">#ffd3ffe2</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="select_white">#ffffff</color>
+    <color name="select_black">#000000</color>
+    <color name="select_red">#A11109</color>
+    <color name="select_green">#10BB41</color>
+    <color name="select_yellow">#BBBA0B</color>
+
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+
+    <color name="possible_result_points">#c0ffff00</color>
+
+
+</resources>
